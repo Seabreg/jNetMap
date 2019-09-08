@@ -1,0 +1,20 @@
+[Desktop Entry]
+Version=0.5.4
+Type=Application
+Terminal=false
+Name=jNetMap
+Icon=/usr/share/jnetmap/jnetmap.png
+Exec=jnetmap %f
+Categories=Network;
+GenericName=jNetMap
+Comment=Graphical network monitoring
+MimeType=application/x-jnetmap
+Actions=new;open;
+
+[Desktop Action new]
+Name=New Map
+Exec=jnetmap --new
+
+[Desktop Action open]
+Name=Open Map
+Exec=jnetmap --open
